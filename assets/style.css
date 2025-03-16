@@ -21,11 +21,6 @@ html {
 
 p {
   color: black;
-  word-spacing: normal;
-  letter-spacing: normal;
-  margin: 0;
-  padding: 0;
-  line-height: 1.5;    
 }
 
 p + p {
