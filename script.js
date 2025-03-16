@@ -22,12 +22,3 @@ document.addEventListener("DOMContentLoaded", function () {
   const text = "Hello, I'm Avin Sapkota!";
 let index = 0;
 
-// function typeEffect() {
-//   if (index < text.length) {
-//     document.getElementById("typing").innerHTML += text.charAt(index);
-//     index++;
-//     setTimeout(typeEffect, 100);
-//   }
-// }
-
-// typeEffect();

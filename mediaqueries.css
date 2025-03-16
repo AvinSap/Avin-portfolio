@@ -175,6 +175,9 @@
 }
 .text-container {
     text-align: justify;
+    word-spacing: normal;
+    letter-spacing: normal;
+    text-align: left;
 }
 }
    
