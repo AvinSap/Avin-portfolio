@@ -403,6 +403,7 @@ section{
 .about-details-container {
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .about-containers,
@@ -416,7 +417,7 @@ section{
 
 .arrow {
   position: absolute;
-  right:-5rem;
+  right:2rem;
   bottom: 2.5rem;
 }
 
@@ -427,7 +428,7 @@ section{
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
-  text-align: center;
+  text-align: left;
   backdrop-filter: blur(10px);
   background: rgba(45, 55, 72, 0.15);
   border-width: 1px;
@@ -437,21 +438,21 @@ section{
   border-radius: 24px;
   padding: 40px;
   transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  letter-spacing:normal;
-  word-spacing: normal;
+  letter-spacing: 0px;
+  word-spacing: 0px;
   /* text-align: left; */
 }
 
 .section-container {
-  gap: 4rem;
-  height: 80%;
+  gap: 2rem;
+  height: auto;
 }
 
-.section__pic-container {
+/* .section__pic-container {
   height: 400px;
   width: 400px;
   margin: auto 0;
-}
+} */
 
 /* SKILLS SECTION */
 #skills {
