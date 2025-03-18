@@ -448,6 +448,15 @@ section{
   word-spacing: normal;
   /* text-align: left; */
 }
+.text-container {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  line-height: 1.6;
+  font-size: 16px;
+}
+
 
 .section-container {
   gap: 4rem;
