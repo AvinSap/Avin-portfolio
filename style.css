@@ -428,9 +428,9 @@ section{
 }
 
 .details-container {
-  padding: 1.5rem;
+  /* padding: 1.5rem; */
   flex:1;
-  border: rgb(53, 53, 53) 0.1rem solid;
+  /* border: rgb(53, 53, 53) 0.1rem solid; */
   border-color: rgb(163, 163, 163);
   text-align: center;
   backdrop-filter: blur(10px);
@@ -442,9 +442,6 @@ section{
   border-radius: 24px;
   padding: 40px;
   transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  letter-spacing:normal;
-  word-spacing: normal;
-  /* text-align: left; */
 }
 .text-container {
   background: rgba(255, 255, 255, 0.1);
@@ -455,6 +452,8 @@ section{
   font-size: 16px;
   text-align: center;
   margin-top: 30px; 
+  word-spacing: 0;
+  letter-spacing: 0;
 }
 .text-container {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
