@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="script.js" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-    <link rel="icon" type="image/png" href="assets/apple-touch-icon.png"> 
-    
+    <link rel="icon" type="image/png" href="assets/apple-touch-icon.png"> <!-- For PNG -->
+    <!-- <link rel="icon" type="image/x-icon" href="assets/apple-touch-icon.png"> For ICO -->
 </head>
 <body>
  
@@ -36,6 +36,7 @@
     </div>
 
 
+
     <div class="menu-links">
         <li><a href="#home" onclick="toggleMenu()">Home</a></li>
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -55,7 +56,7 @@
         <h1 class="title"><strong>Avin Sapkota</strong></h1>
         <p class="section__text__p2">SOFTWARE DEVELOPER/COMPUTER SCIENCE MAJOR</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('/assets/resumeamazon.pdf')">View Resume</button>
+            <button class="btn btn-color-2" onclick="window.open('assets/RESUMEAVINAMAZON.pdf')">View Resume</button>
             <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button> -->
         </div>
         <div id="socials-container">
@@ -82,10 +83,23 @@
     </div>
   </section>
   <section id="about">
+    <!-- <p class="section__text__p1"></p> -->
     <h1 class="title">About Me</h1>
+    <!-- <div class="section-container">
+        <div class="section__pic-container">
+            <img src="assets/profileavin.png" 
+            alt="Profile picture" 
+            class="avinprofile"
+            />    
+        </div> -->
+        <div class="about" data-aos="fade-up">
+            <h2>My Projects</h2>
+          </div>
         <div class="about-details-container">
             <div class="about-containers">
-        <div class="details-container">
+        </div>
+        </div>
+        <div class="text-container details-container ">
                  <img
                      src="assets/graduation.png" alt="Education icon"
                     class="icon"
@@ -101,12 +115,13 @@
                 />
                 <h3>Connections</h3>
                 <p><strong>Lambda Chi Alpha</strong> <br>Greek Life<br>2022-2025</p><br>
-        </div>
-                <div class="details-container">
-            <div class="text-container">
-                <p>Hello, I am Avin Sapkota, a Senior 'Computer Science' Major at <strong>SOUTHEAST MISSOURI STATE UNIVERSITY</strong>. As an international student from Kathmandu, Nepal, I bring a diverse global perspective and a passion for technology. I enjoy coming up with creative ideas and tackling challenges.
-                I have experience in Web Application Development, Database Management, Cloud Computing, and Artificial Intelligence. After completing various projects, I have strengthened my critical thinking, teamwork, communication, and problem-solving skills. I am always eager to learn more in this evolving era of technology and continuously seek new opportunities and challenges.</p>
-        </div>
+            <p>
+                Hello, I am Avin Sapkota, A Senior 'Computer Science' Major at <strong>SOUTHEAST MISSOURI STATE UNIVERSITY</strong>, as an International Student from Kathmandu, Nepal. I bring diverse global perspective and a love for technology, 
+                 I am really interested in coming up with creative and innovative ideas and Challenges.
+                 I also have a good experience in Web Application Development, Database Management, Cloud Computing, Artificial Intellegence and so on
+                 After completing various of Projects. I also have strengthen my critical thinking, teamwork, communication skills and problem solving abilities.
+                 I am always eager to learn more and more in this era of technology and I will also keep looking for new opportunities and challenges.</p>
+
         </div>
       </div>
     </div>
@@ -123,7 +138,11 @@
     <div class="skills-details-container">
         <div class="about-containers">
             <div class="details-container">
-               
+                <!-- <div class="details-container"> -->
+                    
+                     <!-- <img src="assets/experience.png" alt="Skills icon"
+                    class="icon"
+                    /> -->
                     <h3>Software Development</h3>
                     <h4>4+ Years Experience</h4>
                         <p>Skilled in multiple programming languages, such as Python, Java, and JavaScript. Experienced with software architecture, machine learning, and web development.
@@ -134,7 +153,10 @@
                             <br>• APIs
                 </div>
                 <div class="details-container">
-                    
+                    <!-- <img
+                     src="assets/graduation.png" alt="Education icon"
+                    class="icon"
+                    /> -->
                     <h3><strong>UI/UX Design</strong></h3>
                     <h4>2+ Years Experience</h4>
                     <p>
@@ -147,7 +169,10 @@
                         <br>•Interaction & Animation 
             </div>
             <div class="details-container">
-                
+                <!-- <img
+                 src="assets/group.png" alt="Education icon"
+                class="icon"
+                /> -->
                <h3>Machine Learning</h3>
                     <h4>3+ Years Experience</h4>
                     <p>Experienced in creating and deploying machine learning models. Proficient in deeply learning frameworks and data analysis.
@@ -191,12 +216,12 @@
                 Designed and implemented class, state, and sequence diagrams to model system architecture.   
                 Utilized object-oriented principles and SQL databases to manage data efficiently.   
              </p>
-            
+         
         </div>
 
         <div class="details-container color-container">
             <div class="article-container">
-                
+            
                 <img src="./assets/user-circle-regular-240.png" 
                 alt="Project 2"
                 class="icon" 
@@ -205,12 +230,12 @@
             <h2 class="skills-sub-title project-title"><strong>trueSemo Comminity Website/App</strong></h2>
            <p>Led the presentation of key project features, enhancing student engagement.   
             Assisted in designing intuitive user interfaces and refining project documentation.  </p>
-           
+     
         </div>
 
         <div class="details-container color-container">
             <div class="article-container">
-                
+               
                 <img src="./assets/coffee-regular-240.png" 
                 alt="Project 3"
                 class="icon" 
@@ -218,7 +243,7 @@
             </div>
             <h2 class="skills-sub-title project-title">MY PORTFOLIO</h2>
             <p>Used HTML, CSS and JavaScript to create a Responsive Portfolio Website </p>
-            
+        
         </div>
     </div>
     <img 
