@@ -23,7 +23,8 @@
         max-width: 100%; 
         height: auto;  
         display: block; 
-        margin-bottom: 7rem; 
+        margin-bottom: 5rem;
+        margin-top: 3rem;
     }
 }
     .about-containers {
@@ -31,7 +32,7 @@
     }
     .section__text__p1 {
         text-align: center;
-        margin-top: -5rem;
+        margin-top: -2rem;
       }
     /* .sticky-nav {
         margin-top: 5rem;
@@ -87,7 +88,7 @@
         height: 450px;
         background-color: transparent;
         margin-bottom: 4rem;
-        margin-top: 0;
+        margin-top: 1rem;
       }
     
       .details-container {
@@ -176,22 +177,7 @@
     font-size: 2rem;
 }
 .text-container {
-    text-align: justify;
+    text-align:left;
+
 }
 }
-   
-   
-
-
-/* @keyframes circularMotion {
-    0% { transform: translate(0, 0); }
-    25% { transform: translate(15px, -15px); }
-    50% { transform: translate(30px, 0); }
-    75% { transform: translate(15px, 15px); }
-    100% { transform: translate(0, 0); }
-  }
-  
-  .section__pic-container:hover {
-    animation: circularMotion 1s ease ;
-  }
-   */

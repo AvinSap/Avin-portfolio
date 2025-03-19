@@ -290,7 +290,7 @@ section{
   width: 80%;
   height: auto;
   border-radius: 50%;
-  margin-top: 1rem;
+  margin-top: 6rem;
 }
 
 .section__pic-container:hover {
@@ -314,7 +314,8 @@ section{
 
 .section__text__p1 {
   text-align: center;
-  margin-top: auto;
+  margin-top: 5rem;
+
 }
 
 .section__text__p2 {
@@ -428,9 +429,11 @@ section{
 }
 
 .details-container {
-  /* padding: 1.5rem; */
+  padding: 1.5rem;
   flex:1;
-  /* border: rgb(53, 53, 53) 0.1rem solid; */
+  background: whitesmoke;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
   backdrop-filter: blur(10px);
@@ -442,27 +445,11 @@ section{
   border-radius: 24px;
   padding: 40px;
   transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-.text-container {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-  line-height: 1.6;
-  font-size: 16px;
-  text-align: center;
-  margin-top: 30px; 
-  word-spacing: 0;
-  letter-spacing: 0;
-}
-.text-container {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  letter-spacing:normal;
+  word-spacing: normal;
+  /* text-align: left; */
 }
 
-.text-container:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-}
 .section-container {
   gap: 4rem;
   height: 80%;
@@ -471,7 +458,7 @@ section{
 .section__pic-container {
   height: 400px;
   width: 400px;
-  margin: auto 0;
+  margin: 6rem;
 }
 
 /* SKILLS SECTION */
