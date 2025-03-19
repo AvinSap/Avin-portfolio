@@ -267,28 +267,28 @@ section{
 
 .container {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Centers elements horizontally */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
   margin: auto;
 }
 
 .section__pic-container {
   display:flex;
-  height: 100px;
-  width: 100px;
+  /* height: 100px;
+  width: 100px; */
   margin-bottom: 1rem;
   justify-content: center;
   align-items: center;
-  /* height: 200px;
-  width: 200px;  */
+  height: 200px;
+  width: 200px; 
   transition: transform 0.3s ease;
   margin-top: 3rem
 }
 
 .section__pic-container img {
   width: 80%;
-  height: auto;
+  height: 80%;
   border-radius: 50%;
   margin-top: 6rem;
 }

@@ -63,9 +63,9 @@
      margin: 0.5%;
     }
     .section__pic-container img {
-        width: 275px;
-        height: 275px;
-        margin: 0 ;
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
     }
     .about-containers {
         margin-top: 0;
@@ -159,12 +159,24 @@
         margin-bottom: 0;
     }
     .section__pic-container {
-        width: auto;
-        height: 46vw;
+        width: 100%; 
+        max-width: 300px; 
+        height: auto; 
+        display: flex;
         justify-content: center;
-        
+        align-items: center;
+        margin: auto;
     }
-
+    
+    .section__pic-container img {
+        width: 100%; 
+        height: auto; 
+        object-fit: cover; 
+        max-width: 300px; 
+        max-height: 300px;
+        border-radius: 10px; 
+    }
+    
 .skills-details-container {
     flex-direction: column;
     margin-bottom: 4rem;  
