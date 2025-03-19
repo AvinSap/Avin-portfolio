@@ -352,7 +352,7 @@ section{
 
 .btn-container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   gap: 1rem;
 }
 
