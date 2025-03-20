@@ -75,7 +75,7 @@ nav {
 .nav-links {
   gap: 2rem;
   list-style: none;
-  font-size: 0.5rem;
+  font-size: 1rem;
 }
 .sticky-nav {
   position: fixed;
@@ -352,7 +352,7 @@ section{
 
 .btn-container {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   gap: 1rem;
 }
 
