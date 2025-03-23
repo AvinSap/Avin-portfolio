@@ -3,6 +3,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -12,30 +13,6 @@ body {
   background-color: whitesmoke;
 /* background-image: url(assets/840934.jpg); */
 } 
-
-
-
-/* .video-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;
-  z-index: -1;
-}
-
-.video-container video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: auto;
-  height: auto;
-  min-width: 100vw;
-  min-height: 100vh;
-  object-fit:stretch;
-  transform: translate(-50%, -50%);
-} */
 
 html {
   scroll-behavior: smooth;
@@ -241,18 +218,6 @@ a:hover {
   opacity: 1;
 }
 
-/* .hamburger-icon span:first-child {
-  transform: none;
-}
-
-.hamburger-icon span:first-child {
-  opacity: 1;
-}
-
-.hamburger-icon span:first-child {
-  transform: none;
-} */
-
 /* SECTIONS */
 section{
   padding-top: 12.3vh;
@@ -281,17 +246,10 @@ section{
   text-align: center;
   padding: 5px;
 }
-/* #home {
-  min-height: 100vh;
-  min-width: 100%;
-  flex-shrink: 0;
-} */
-
-
 .container {
   display: flex;
-  flex-direction: column; /* Stack elements vertically */
-  align-items: center; /* Centers elements horizontally */
+  flex-direction: column; 
+  align-items: center; 
   text-align: center;
   margin: auto;
 }
@@ -318,11 +276,7 @@ section{
 
 .section__pic-container:hover {
   transform: scale(1.1);
-  /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); */
   background-color: transparent;
-  /* transform: translate(20px, -20px); Moves right 20px and up 20px */
-  /* transform: translate(20px, -20px); Moves right and up */
-  /* transform: translate(5vw, -3vh); Moves based on screen size */
 }
 
 .section__text {
@@ -498,7 +452,7 @@ section{
 .skills-sub-title {
   color: rgb(85, 85, 85);
   font-weight:600;
-  font-size: 1.75rem;
+  font-size: 1rem;
   margin-bottom: 2rem;
 }
 
@@ -543,8 +497,6 @@ article .icon {
 
 .color-container {
   border-color: rgb(163, 163, 163);
-  /* background: wheat; */
-  /* background-image:url(assets/pexels-photo-3183198.webp) */ 
   backdrop-filter: blur(10px);
   background: rgba(45, 55, 72, 0.15);
   border-width: 1px;
@@ -555,12 +507,6 @@ article .icon {
   padding: 40px;
   transition: 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-/* .project-img {
-  border-radius: 2rem;
-  width: 90%;
-  height: 90%;
-} */
 
 .project-title {
   margin: 1rem;

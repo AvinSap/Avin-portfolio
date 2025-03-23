@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="script.js" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css">
     <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
-    <link rel="icon" type="image/png" href="assets/apple-touch-icon.png"> <!-- For PNG -->
+    <link rel="icon" type="image/png" href="assets/apple-touch-icon.png"> 
     
 </head>
 <body>
@@ -36,7 +36,6 @@
     </div>
 
 
-
     <div class="menu-links">
         <li><a href="#home" onclick="toggleMenu()">Home</a></li>
         <li><a href="#about" onclick="toggleMenu()">About</a></li>
@@ -56,8 +55,11 @@
         <h1 class="title"><strong>Avin Sapkota</strong></h1>
         <p class="section__text__p2">SOFTWARE DEVELOPER/COMPUTER SCIENCE MAJOR</p>
         <div class="btn-container">
-            <button class="btn btn-color-2" onclick="window.open('assets/RESUMEAVINAMAZON.pdf')">View Resume</button>
+
+            <button class="btn btn-color-2" onclick=" location.href ='assets/AvinSapRESUME.pdf'">View Resume</button>
+           <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>  -->
             <!-- <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button> -->
+
         </div>
         <div id="socials-container">
             <img src="./assets/linkedin.png" 
@@ -84,34 +86,33 @@
   </section>
   <section id="about">
     <h1 class="title">About Me</h1>
-    <!-- <p class="section__text__p1"></p> -->
-    <div class="about-details-container">
-        <div class="about-containers">
-    <div class="details-container">
-             <img
-                 src="assets/graduation.png" alt="Education icon"
+        <div class="about-details-container">
+            <div class="about-containers">
+        <div class="details-container">
+                 <img
+                     src="assets/graduation.png" alt="Education icon"
+                    class="icon"
+                    />
+                    <h3>Education</h3>
+                    <p><strong>Bachelor's Of Science in Computer Science</strong> 
+                        <br>SOUTHEAST MISSOURI STATE UNIVERSITY 
+                        <br>Cape Girardeau, MO, 63701 <br>2021-2025</p><br>
+
+                <img
+                src="assets/group.png" alt="Education icon"
                 class="icon"
                 />
-                <h3>Education</h3>
-                <p><strong>Bachelor's Of Science in Computer Science</strong> 
-                    <br>SOUTHEAST MISSOURI STATE UNIVERSITY 
-                    <br>Cape Girardeau, MO, 63701 <br>2021-2025</p><br>
-
-            <img
-            src="assets/group.png" alt="Education icon"
-            class="icon"
-            />
-            <h3>Connections</h3>
-            <p><strong>Lambda Chi Alpha</strong> <br>Greek Life<br>2022-2025</p><br>
+                <h3>Connections</h3>
+                <p><strong>Lambda Chi Alpha</strong> <br>Greek Life<br>2022-2025</p><br>
+        </div>
+                <div class="details-container">
+            <div class="text-container">
+                <p>Hello, I am Avin Sapkota, a Senior 'Computer Science' Major at <strong>SOUTHEAST MISSOURI STATE UNIVERSITY</strong>. As an international student from Kathmandu, Nepal, I bring a diverse global perspective and a passion for technology. I enjoy coming up with creative ideas and tackling challenges.
+                I have experience in Web Application Development, Database Management, Cloud Computing, and Artificial Intelligence. After completing various projects, I have strengthened my critical thinking, teamwork, communication, and problem-solving skills. I am always eager to learn more in this evolving era of technology and continuously seek new opportunities and challenges.</p>
+        </div>
+        </div>
+      </div>
     </div>
-            <div class="details-container">
-        <div class="text-container">
-            <p>Hello, I am Avin Sapkota, a Senior 'Computer Science' Major at <strong>SOUTHEAST MISSOURI STATE UNIVERSITY</strong>. As an international student from Kathmandu, Nepal, I bring a diverse global perspective and a passion for technology. I enjoy coming up with creative ideas and tackling challenges.
-            I have experience in Web Application Development, Database Management, Cloud Computing, and Artificial Intelligence. After completing various projects, I have strengthened my critical thinking, teamwork, communication, and problem-solving skills. I am always eager to learn more in this evolving era of technology and continuously seek new opportunities and challenges.</p>
-    </div>
-    </div>
-  </div>
-</div>
     <img 
     src="assets/arrow.png" 
     alt="Arrow icon" 
@@ -120,56 +121,55 @@
     />
   </section>
   <section id="skills">
+    <!-- <p class="section__text__p1">My</p> -->
     <h1 class="title">Skills & Experience</h1>
     <div class="skills-details-container">
         <div class="about-containers">
             <div class="details-container">
-                <!-- <div class="details-container"> -->
-                    
-                     <!-- <img src="assets/experience.png" alt="Skills icon"
-                    class="icon"
-                    /> -->
+                <div class="article-container">
+
+                    <img src="./assets/code.png" 
+                    alt="Project 1"
+                    class="icon" 
+                    >
+                </div>
+               
                     <h3>Software Development</h3>
-                    <h4>4+ Years Experience</h4>
-                        <p>Skilled in multiple programming languages, such as Python, Java, and JavaScript. Experienced with software architecture, machine learning, and web development.
-                           <br>Skills:
-                            <br>•Full-stack Websites Development
-                            <br>• Cloud services (AWS, GCP);
-                            <br>• Database management;
-                            <br>• APIs
+                    <h4>4+ Years</h4>
+                        <p>Proficient in JavaScript, Python, and Node.js, with hands-on experience in building scalable web applications using React.js, Express.js, and Django. Strong understanding of software architecture, cloud computing (AWS, Firebase, Kubernetes), and database management (MySQL, MongoDB, PostgreSQL).
+
+                            <br>Key Skills:
+                            
+                            <br>•Full-Stack Web Development
+                            <br>•Cloud Services (AWS, Firebase, Kubernetes)
+                            <br>•Database Management & Optimization
+                            <br>•API Development & Security (JWT, RBAC)
+                        </p>
                 </div>
                 <div class="details-container">
-                    <!-- <img
-                     src="assets/graduation.png" alt="Education icon"
-                    class="icon"
-                    /> -->
-                    <h3><strong>UI/UX Design</strong></h3>
-                    <h4>2+ Years Experience</h4>
-                    <p>
-                        Designing Aesthetically pleasing and user-friendly UI's. Paying attention to responsive design concepts and amazing user experience.
-                        <br>Skills:
-                    
-                        <br>•Responsive design
-                        <br>•User Interface Designs
-                        <br>•Prototyping
-                        <br>•Interaction & Animation 
-            </div>
-            <div class="details-container">
-                <!-- <img
-                 src="assets/group.png" alt="Education icon"
-                class="icon"
-                /> -->
-               <h3>Machine Learning</h3>
-                    <h4>3+ Years Experience</h4>
-                    <p>Experienced in creating and deploying machine learning models. Proficient in deeply learning frameworks and data analysis.
-                        <br>Skills: 
-                        <br> • Natural Language Processing
-                        <br>• TensorFlow & PyTorch
-                        <br> • Neural Networks
-                        <br> • Computer Vision </p>
+                    <div class="article-container">
 
-                
-        </div>
+                        <img src="./assets/user.png" 
+                        alt="Project 1"
+                        class="icon" 
+                        >
+                    </div>
+                    
+                    <h3><strong>UI/UX Design</strong></h3>
+                    <h4>2+ Years </h4>
+                    <p>
+                        Passionate about designing intuitive and responsive user interfaces with a focus on accessibility and user experience. Skilled in Tailwind CSS, React.js,
+                         and modern UI/UX principles, ensuring seamless interactions and optimized layouts across all devices.
+
+                         <br>Key Skills:
+
+                          <br>•Responsive Web Design
+                          <br>•UI/UX Wireframing & Prototyping
+                          <br>•Interactive & Dynamic Web Interfaces
+                          <br>•User-Centric Design with Tailwind CSS
+                        </p>
+            </div>
+
         <img 
             src="assets/arrow.png" 
             alt="Arrow icon"
@@ -185,63 +185,59 @@
         <div class="details-container color-container">
             
             <div class="article-container">
-                <!-- <img 
-                src="assets/project-1.png" 
-                alt="project 1"
-                class="project-img"
-                />   -->
-                <img src="./assets/home-alt-2-regular-240.png" 
+
+                <img src="./assets/gas.png" 
                 alt="Project 1"
                 class="icon" 
                 >
             </div>
-            <h2 class="skills-sub-title project-title">Rental Property Management App</h2>
-            <!-- <h3>SOUTHEAST MISSOURI STATE UNIVERSITY</h3> -->
+            <h2 class="skills-sub-title project-title">Convenience App</h2>
+            <h4 class="skills-sub-title">Gasoline Price & Direction Finder Full-Stack App</h4>
 
-            <p>Developed a web-based system for landlords to manage tenants, properties, and financial records.   
-                Designed and implemented class, state, and sequence diagrams to model system architecture.   
-                Utilized object-oriented principles and SQL databases to manage data efficiently.   
+            <p> Developing a full-stack application that helps users find real-time gas prices and directions to nearby gas stations. 
+                Building a Python web scraper to ensure 100% accurate price data, Next.js frontend for a seamless user experience, and Express.js backend for real-time updates. 
+                Integrating AWS for hosting, storage, and notifications, ensuring scalability and reliability. Securing admin features using JWT authentication and
+                 Role-Based Access Control (RBAC) for enhanced security.
+                
              </p>
-             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.location.href= ('https://github.com/AvinSap')">
-                    Git-Hub
-                </button>
-        </div>
+             <button class="btn btn-color-2" onclick="window.location.href='https://github.com/AvinSap/convenience';" class="btn btn-color-2">
+                Git-Hub
+            </button>
         </div>
 
         <div class="details-container color-container">
             <div class="article-container">
-            
-                <img src="./assets/user-circle-regular-240.png" 
+                
+                <img src="./assets/news.png" 
                 alt="Project 2"
                 class="icon" 
                 >
             </div>
-            <h2 class="skills-sub-title project-title"><strong>trueSemo Comminity Website/App</strong></h2>
-           <p>Led the presentation of key project features, enhancing student engagement.   
-            Assisted in designing intuitive user interfaces and refining project documentation.  </p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.location.href= ('https://github.com/AvinSap')">
-                    Git-Hub
-                </button>
-        </div>
+            <h2 class="skills-sub-title project-title"><strong>SEMO NEWS PORTAL</strong></h2>
+            <h4 class="skills-sub-title">News Portal Full-Stack App</h4>
+           <p>Developed a full-stack news platform with JWT authentication for secure access. Built an admin panel for easy content management, including listing, editing, and updates.
+             Integrated search functionality for quick article discovery. Enabled user interactions with a commenting system and moderation tools. 
+             Designed a responsive UI using React.js and Tailwind CSS for an optimized user experience. </p>
+            <button class="btn btn-color-2" onclick="window.location.href='https://github.com/AvinSap/reactnews';" class="btn btn-color-2">
+                Git-Hub
+            </button>
         </div>
 
         <div class="details-container color-container">
             <div class="article-container">
-               
+                
                 <img src="./assets/coffee-regular-240.png" 
                 alt="Project 3"
                 class="icon" 
                 >
             </div>
             <h2 class="skills-sub-title project-title">MY PORTFOLIO</h2>
-            <p>Used HTML, CSS and JavaScript to create a Responsive Portfolio Website </p>
-            <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.location.href= ('https://github.com/AvinSap')">
-                    Git-Hub
-                </button>
-        </div>
+            <p>Designed and developed a personal portfolio website to showcase projects, technical skills, and professional experience.
+                 Built using React.js and Tailwind CSS, ensuring a modern, responsive, and visually appealing design.
+                  Integrated interactive animations and dynamic content to enhance user engagement. Hosted on Netlify/GitHub Pages, with optimized performance and SEO for better visibility.</p>
+            <button class="btn btn-color-2" onclick="window.location.href='https://github.com/AvinSap/Avin-portfolio';" class="btn btn-color-2">
+                Git-Hub
+            </button> 
         </div>
     </div>
     <img 
@@ -252,15 +248,15 @@
             />
   </section>
   <section id="contact">
-    <p class="section__text__p1">Lock In Together?</p>
-    <h1 class="title">Let's Connect!</h1>
+    <p class="section__text__p1">Let's work on some cool real-life projects.</p>
+    <h1 class="title">Connect!</h1>
     <div class="contact-info-upper-container">
      <div class="contact-info-container">
         <img src="assets/email.png" 
         alt="Email icon"
         class="icon contact-icon"
         />
-        <p><a href="mailto:avinsapkota333@gmail.com">G-Mail</a>
+        <p><a href="mailto:avinsapkota7@gmail.com">G-Mail</a>
         </p>
      </div>
      <div class="contact-info-container">
